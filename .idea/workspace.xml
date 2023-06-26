@@ -43,7 +43,7 @@
     "settings.editor.selected.configurable": "shared-indexes"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DataStreamEnvDemo">
     <configuration name="DataSetEnvDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.play.dataset.DataSetEnvDemo" />
       <module name="PlayWithFlink" />
@@ -57,8 +57,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataSetFilterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.play.dataset.DataSetFilterDemo" />
+      <module name="PlayWithFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.play.dataset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSetFlatMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.play.dataset.DataSetFlatMapDemo" />
+      <module name="PlayWithFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.play.dataset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataStreamEnvDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.play.datastream.DataStreamEnvDemo" />
+      <module name="PlayWithFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.play.datastream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCounterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.play.dataset.WordCounterDemo" />
+      <module name="PlayWithFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.play.dataset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataStreamEnvDemo" />
+        <item itemvalue="Application.WordCounterDemo" />
+        <item itemvalue="Application.DataSetFlatMapDemo" />
+        <item itemvalue="Application.DataSetFilterDemo" />
         <item itemvalue="Application.DataSetEnvDemo" />
       </list>
     </recent_temporary>
