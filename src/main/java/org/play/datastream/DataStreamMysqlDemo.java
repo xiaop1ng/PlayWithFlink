@@ -14,14 +14,16 @@ public class DataStreamMysqlDemo {
 
         DataStream<String> source = env.fromCollection(Arrays.asList("hello you", "hello me"));
 
+        source.print();
+
         source.addSink(JdbcSink.sink("insert into t_test(from_kafka) values (?)",
                 (ps, t) -> {
                     ps.setString(1, t);
                 }, new JdbcConnectionOptions.JdbcConnectionOptionsBuilder()
                         .withUrl("jdbc:mysql://gz-cynosdbmysql-grp-7lsxwr5p.sql.tencentcdb.com:26456/feedback")
                         .withDriverName("com.mysql.cj.jdbc.Driver")
-                        .withUsername("root")
-                        .withPassword("colin@2022")
+                        .withUsername("flink")
+                        .withPassword("flink@2023")
                         .build()
         ));
         env.execute("DataStreamMysqlDemo");
