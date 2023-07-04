@@ -12,7 +12,7 @@ public class DataStreamMysqlDemo {
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
-        DataStream<String> source = env.fromCollection(Arrays.asList("hello you", "hello me"));
+        DataStream<String> source = env.fromCollection(Arrays.asList("hello you!", "hello me!"));
 
         source.print();
 

@@ -43,9 +43,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;shared-indexes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DataStreamMysqlDemo">
-    <configuration name="DataSetFlatMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.play.dataset.DataSetFlatMapDemo" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.play.datastream" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DataStreamKafka2MysqlDemo">
+    <configuration name="DataStreamEnvDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.play.datastream.DataStreamEnvDemo" />
       <module name="PlayWithFlink" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStreamEnvDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.play.datastream.DataStreamEnvDemo" />
+    <configuration name="DataStreamKafka2MysqlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.play.datastream.DataStreamKafka2MysqlDemo" />
       <module name="PlayWithFlink" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataStreamKafka2MysqlDemo" />
         <item itemvalue="Application.DataStreamMysqlDemo" />
         <item itemvalue="Application.DataStreamKafkaDemo" />
         <item itemvalue="Application.DataStreamEnvDemo" />
         <item itemvalue="Application.WordCounterDemo" />
-        <item itemvalue="Application.DataSetFlatMapDemo" />
       </list>
     </recent_temporary>
   </component>
